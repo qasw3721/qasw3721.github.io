@@ -2,58 +2,52 @@
 <html lang="en">
 	<head>
 		<meta charset="big5" />
-		<title>晨光的 home page</title>
+		<title>SqUaRe HoMe</title>
 		<link rel = "icon" type = "image/icon" href = "sunshine.ico"/>
-		<style >		
-   
-			 .list
-			{
-					
-			}
-			.list2
-			{
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script01.js"></script>
+		
 			
-			 }
-			   
-			 #rockman
-			 {
-				width: 10%;
-			 }
-			 
-			 body
-			 {
-				background: url("letgo.jpg") #CCC no-repeat left top;
-				background-size: 100%;
-				
-			 }		   
-		</style>
 	</head>
-	<body >
+	<body>
 		<EMBED SRC="hot.mid" hidden=false autostart=true loop=true>
+		<div id="pointerL" onclick="pointerLR()"></div>
 		
-			<center><img id="rockman" src="http://vignette1.wikia.nocookie.net/megaman/images/c/cb/OtorenRockman.jpg/revision/latest?cb=20131209003803  width = "10%">
-
-
-
-
-			<h1>Fang Chan's home page</h1>
-			<h2><p>Email:qasw3721@yahoo.com.hk</p>
-			<p>Address:Monterey Park</p></h2></center>
-		<hr width=80% size=1 color=196f66>
-		<h3>About me:</h3>
+		<nav id="menu">
+			<img id="logo" src="logo.png">
+			<ul>
+					<li class="lab"><a href="lab01/resume.html">lab01</a> </li>
+					<li class="lab"><a href="lab02/StuffFish.html">lab02</a> </li>
+					<li class="lab"><a href="lab03/my_hobby.html">lab03</a> </li>
+					<li class="lab"><a href="lab04/new_Fish.html">lab04</a> </li>
+					<li class="lab"><a href="lab05/Hanafuda.html">lab05</a> </li>
+					<li class="lab"><a href="lab06/Akira_Toriyama.html">lab06a</a></li>
+					<li class="lab"><a href="lab06/Hayao.html">lab06b</a></li>
+					<li class="lab"><a href="lab07/lab7.html">lab07</a></li>
+					<li class="lab"><a href="lab08/lab08.html">lab08</a> </li>
+					<li class="lab"><a href="lab09/lab09.html">lab09</a> </li>
+			</ul>	
+		</nav>
 		
-		<div class="list">
-		<p class="list2"><a href="lab01/resume.html">Click here</a> about my background(lab01)</p>
-		<p class="list2"><a href="lab02/StuffFish.html">Click here</a> about one chinese food(lab02)</p>	
-		<p class="list2"><a href="lab03/my_hobby.html">Click here</a> about my hobby(lab03)</p>
-		<p class="list2"><a href="lab04/new_Fish.html">Click here</a> about my new recipe page(lab04)</p>
-		<p class="list2"><a href="lab05/Hanafuda.html">Click here</a> about Hanafuda(lab05)</p>
-		<p class="list2"><a href="lab06/Akira_Toriyama.html">Click here</a> about Akira_Toriyama(lab06a)</p>
-		<p class="list2"><a href="lab06/Hayao.html">Click here</a> about Hayao_Miyazaki(lab06b)</p>
-		<p class="list2"><a href="lab07/lab7.html">Click here</a> about multiplication table(lab07)</p>
-		<p class="list2"><a href="lab08/lab08.html">Click here</a> about Star Trek(lab08)</p>
-		<p class="list2"><a href="lab09/lab09.html">Click here</a> about information(lab09)</p>
-		</div>
-		
+		<div id="pointerR" onclick="pointerLR()"></div>
+	<script>
+			var door = 1;
+			function pointerLR()
+			{
+				if (door==1)
+				{
+					document.getElementById("menu").style.left="-240px";
+					<!-- document.getElementById("menu").style.width="480px"; -->
+					document.getElementById("pointerL").style.left="-240px";
+					door = 0;
+				}
+				else
+				{
+					document.getElementById("menu").style.left="0px";
+					document.getElementById("pointerL").style.left="0px";
+					door = 1;
+				}
+			}
+	</script>
 	</body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="big5" />
+		<meta charset="UTF-8" />
 		<title>SqUaRe HoMe</title>
 		<link rel = "icon" type = "image/icon" href = "sunshine.ico"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -10,12 +10,14 @@
 			
 	</head>
 	<body>
-		<EMBED SRC="hot.mid" hidden=false autostart=true loop=true>
+		<EMBED id="player" SRC="hot.mid"  autostart=false loop=true>
 		<div id="pointerL" onclick="pointerLR()"></div>
-		
+		<p id="square">晨光之家</p>
 		<nav id="menu">
-			<img id="logo" src="logo.png">
+			<img id="logo" src="logo.png" onclick="homepage()">
+			<!-- <div id=logo onclick="homepage()"></div> -->
 			<ul>
+				
 					<li class="lab"><a href="lab01/resume.html">lab01</a> </li>
 					<li class="lab"><a href="lab02/StuffFish.html">lab02</a> </li>
 					<li class="lab"><a href="lab03/my_hobby.html">lab03</a> </li>
@@ -29,25 +31,9 @@
 			</ul>	
 		</nav>
 		
+		<img id="rockman" src="rockmanx5.jpg" onclick="zoom()">
+		
 		<div id="pointerR" onclick="pointerLR()"></div>
-	<script>
-			var door = 1;
-			function pointerLR()
-			{
-				if (door==1)
-				{
-					document.getElementById("menu").style.left="-240px";
-					<!-- document.getElementById("menu").style.width="480px"; -->
-					document.getElementById("pointerL").style.left="-240px";
-					door = 0;
-				}
-				else
-				{
-					document.getElementById("menu").style.left="0px";
-					document.getElementById("pointerL").style.left="0px";
-					door = 1;
-				}
-			}
-	</script>
+	<!-- <script></script> -->
 	</body>
 </html>

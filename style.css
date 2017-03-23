@@ -1,3 +1,37 @@
+/*#test ul li
+{
+	display: inline-block;
+	position:fixed;
+	list-style:none;
+	margin-left:10px;
+	width:100px;
+	height:100px;
+	left:300px;
+	
+	
+}*/
+#test
+{
+	margin-left:300px;
+}
+#test ul li
+{
+	color:#FF1234;
+	height:50px;
+	width:50px;
+	background-color:#FF6611;
+	border:5px solid #000000;
+	margin:20px;
+	float: left;
+	/*display: inline-block;*/
+	list-style:none;
+
+}
+#test ul li:hover
+{
+	height:150px;
+	width:150px;
+}
 * 
 {
 	margin:0;
@@ -7,8 +41,11 @@
 }
 #square
 {
+	font-size:100%;
 	margin-top:50px;
 	margin-left:50%;
+	display: inline-block;
+	color:green;
 }
 #square:hover
 {
@@ -33,8 +70,8 @@ nav
 	bottom:0;
 	left:100;
 	z-index:1000;
-	transition:all ease-in-out 200ms;
-	-webkit-transiton: all ease-in-out 200ms;
+	transition:all ease-in-out 1000ms;
+	-webkit-transiton: all ease-in-out 1000ms;
 }
 /* #logo
 {
@@ -59,15 +96,31 @@ nav
 #rockman
 {
 	position:fixed;
+
 	left:400px;
 	top:400px;
 	width:120px;
 	height:100px;
 	cursor:pointer;
-	z-index: 2000;
-	
+	z-index: 9;
 
 }
+#rockman:active {
+    width: 70px;
+    height: 74px;
+}
+#close
+{
+	position:fixed;
+	display: block;
+	left:-100px;
+	top:0px;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	z-index: 10;
+}
+
 #logo
 {
 	display:block;
@@ -79,7 +132,7 @@ nav
 	border-radius:1000px;
 	/* background-image: url(logo.png); */
 	z-index:1000;
-	background-size:cover;
+	/*background-size:cover;*/
 	cursor: pointer;
 
 
@@ -103,8 +156,8 @@ nav ul li
 }
 nav ul li a 
 {
-	font-family:Arial;
-	font-weight:300;
+	font-family:fantasy;
+	font-weight:500;
 	color:#fff;
 	text-transform: uppercase;
 	
@@ -129,14 +182,14 @@ nav ul li a:hover
 	cursor: pointer;
 	border-radius #fff;
 	border-radius:100px;
-	transition:all ease-in-out 100ms;
-	-webkit-transiton: all ease-in-out 100ms;
+	transition:all ease-in-out 200ms;
+	-webkit-transiton: all ease-in-out 200ms;
 }
 #pointerR 
 {
 	width: 40px;
 	height:40px;
-	background-color:#fff;
+	background-color:#000;
 	background-image: url(right.png);
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -151,7 +204,16 @@ nav ul li a:hover
 	-webkit-transiton: all ease-in-out 200ms;
 }
 
-#pointerL:hover ,#pointerR:hover 
+#pointerL:hover ,#pointerR,#logo:hover 
 {
 		opacity:0.7;
+}
+
+#increase
+{
+	top:200px;
+	right:300px;
+	width:200px;
+	height:100px;
+	position:fixed;
 }

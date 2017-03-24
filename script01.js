@@ -22,6 +22,15 @@ function homepage()
 {
 	window.location.href = "index.html";
 }
+
+function moon()
+{
+	window.location.href = "https://www.youtube.com/playlist?list=PLSSl7N_xv30xmmarVnoVW74wB8rUQOnL8";
+}
+function mega()
+{
+	window.location.href = "https://mega.nz/#!kQcnWCyI!yn8snQayaXXMd3TwuD4CCKj9Gyz5zQQpPGNnYwtGPag";
+}
 			
 function zoom()
 {

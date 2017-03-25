@@ -31,6 +31,10 @@ function mega()
 {
 	window.location.href = "https://mega.nz/#F!JEslnYZb!fNs1PoJ0mgxcGt89l788MA";
 }
+function link()
+{
+	window.location.href = "http://www.bilibili.com/video/av5544814/?from=search&seid=4551366918372122792";
+}
 			
 function zoom()
 {

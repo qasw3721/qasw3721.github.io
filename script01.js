@@ -29,7 +29,7 @@ function moon()
 }
 function mega()
 {
-	window.location.href = "https://mega.nz/#!kQcnWCyI!yn8snQayaXXMd3TwuD4CCKj9Gyz5zQQpPGNnYwtGPag";
+	window.location.href = "https://mega.nz/#F!JEslnYZb!fNs1PoJ0mgxcGt89l788MA";
 }
 			
 function zoom()

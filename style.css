@@ -29,7 +29,19 @@
 }
 #one
 {
-	background: url("moon.jpg") #CCC no-repeat left top;
+	background: url("image/moon.jpg") #CCC no-repeat left top;
+	background-size: 100%;
+
+}
+#two
+{
+	background: url("image/mega.png") #CCC no-repeat left top;
+	background-size: 100%;
+
+}
+#three
+{
+	background: url("image/link.jpg") #CCC no-repeat left top;
 	background-size: 100%;
 
 }
@@ -69,7 +81,7 @@ p
 body
 {
 	background-color:#272727;
-	background: url("letgo.jpg") #CCC no-repeat left top;
+	background: url("image/letgo.jpg") #CCC no-repeat left top;
 	background-size: 100%;
 	
 }
@@ -186,7 +198,7 @@ nav ul li a:hover
 	width: 40px;
 	height:40px;
 	background-color:#fff;
-	background-image: url(left.png);
+	background-image: url(image/left.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	position:fixed;
@@ -204,7 +216,7 @@ nav ul li a:hover
 	width: 40px;
 	height:40px;
 	background-color:#000;
-	background-image: url(right.png);
+	background-image: url(image/right.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	position:fixed;

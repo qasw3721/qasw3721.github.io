@@ -103,4 +103,4 @@ function big()
 function drama()
 {
 	window.location.href = "drama.html";
-
+}

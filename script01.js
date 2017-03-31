@@ -1,5 +1,6 @@
 var door = 1;
 var gate=0;
+var counter=0;
 			
 function pointerLR()
 {
@@ -23,9 +24,33 @@ function homepage()
 	window.location.href = "index.html";
 }
 
+
+function show()
+{
+	var x = document.getElementsByClassName("lab");
+
+	if (counter==0)
+	{
+		for (i = 0; i < x.length; i++) 
+		{
+    	 x[i].style.position="initial";
+		}
+
+		counter=1;
+	}
+	else
+	{
+		for (i = 0; i < x.length; i++) 
+		{
+			 x[i].style.position="absolute";
+		}
+		counter=0;
+	}
+}
+
 function moon()
 {
-	window.location.href = "https://www.youtube.com/playlist?list=PLSSl7N_xv30xmmarVnoVW74wB8rUQOnL8";
+	window.location.href = "https://www.youtube.com/watch?v=rPq_OPyQrTw";
 }
 function mega()
 {
@@ -47,6 +72,7 @@ function zoom()
 	document.getElementById("rockman").style.height="480px";
 	document.getElementById("rockman").style.cursor="default";
 	document.getElementById("close").style.left="860px";
+	document.getElementById("square").style.fontSize="500%";
 				
 	gate=1;
 	}
@@ -74,3 +100,7 @@ function big()
 	num+=10;
 	document.getElementById("square").style.fontSize="num";
 }
+function drama()
+{
+	window.location.href = "drama.html";
+

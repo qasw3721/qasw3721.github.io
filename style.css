@@ -96,8 +96,8 @@ nav
 	bottom:0;
 	left:100;
 	z-index:1000;
-	transition:all ease-in-out 1000ms;
-	-webkit-transiton: all ease-in-out 1000ms;
+	transition:all ease-in-out 200ms;
+	-webkit-transiton: all ease-in-out 200ms;
 }
 /* #logo
 {
@@ -109,6 +109,7 @@ nav
 	border-radius:1000px;
 	
 } */
+
 #player
 {
 	width:30%;
@@ -165,40 +166,45 @@ nav
 
 .lab
 {
-	visibility: hidden;
-	margin-top:20px;
+	font-family:fantasy;
+	position:absolute;
+	top:-200px;
+	font-size:100%;
+	/*visibility: hidden;*/
+	/*margin-top:20px;*/
 	margin-left:30px;
-}
-nav ul
-{
 	
 
 }
+
+
 nav ul li
 {
-	padding-left: 30px;
+	
+	font-size:200%;
+	color:red;
+	font-family:fantasy;
+	cursor:pointer;
 	
 	list-style:none;
 	margin:0 auto;
-	padding: 4px 0px;
+	padding: 0px 100px;
 	border:5px solid #FFFFFF;
+	transition:all ease-in-out 2000ms;
+	-webkit-transiton: all ease-in-out 2000ms;
 }
 
 nav ul li a 
 {
-	padding-left: 30px;
+	
 	font-family:fantasy;
 	/*font-weight:500;*/
 	color:#fff;
 	text-transform: uppercase;
 	cursor:pointer;
-	font-size:200%; ;
-	
+	font-size:200%; 
 
-	
-	
-	
-	
+
 }
 
 nav ul li a:hover,nav ul ul:hover
@@ -254,5 +260,13 @@ nav ul li a:hover,nav ul ul:hover
 	right:300px;
 	width:200px;
 	height:100px;
-	position:fixed;
+}
+#pointer
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+	margin-top:15px;
+	left:30px;
+	
 }

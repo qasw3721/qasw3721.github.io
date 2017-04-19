@@ -50,7 +50,7 @@ function show()
 
 function moon()
 {
-	window.location.href = "https://www.youtube.com/watch?v=rPq_OPyQrTw";
+	window.location.href = "https://www.viki.com/videos/1107432v-moonlight-drawn-by-clouds-episode-1?locale=en#modal-episode";
 }
 function mega()
 {

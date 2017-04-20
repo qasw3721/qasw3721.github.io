@@ -54,7 +54,7 @@ p
 }
 #test ul li:hover
 {
-	height:180px;
+	height:150px;
 	width:270px;
 	margin:10px;
 	cursor:pointer;

@@ -20,11 +20,18 @@
 	height:140px;
 	width:250px;
 	background-color:#FF6611;
-	border:5px solid #000000;
+	border:10px solid #000000;
 	margin:20px;
 	float: left;
 	/*display: inline-block;*/
 	list-style:none;
+	transition:all ease-in-out 2000ms;
+
+}
+#test ul li:hover
+{
+	border:10px solid red;
+	cursor:pointer;
 
 }
 #one
@@ -52,13 +59,7 @@ p
 	font-size:200%;
 	color:rgb(0,0,0);
 }
-#test ul li:hover
-{
-	height:150px;
-	width:270px;
-	margin:10px;
-	cursor:pointer;
-}
+
 * 
 {
 	margin:0;
@@ -74,11 +75,11 @@ p
 	display: inline-block;
 	color:green;
 }
-#square:hover
+/*#square:hover
 {
 	background-color:yellow;
 	font-size:500%
-}
+}*/
 body
 {
 	background-color:#272727;
@@ -96,9 +97,9 @@ nav
 	top:0;
 	bottom:0;
 	left:100;
-	z-index:1000;
-	transition:all ease-in-out 200ms;
-	-webkit-transiton: all ease-in-out 200ms;
+	/*z-index:1000;*/
+	transition:all ease-in-out 1000ms;
+	-webkit-transiton: all ease-in-out 1000ms;
 }
 /* #logo
 {
@@ -192,7 +193,7 @@ nav ul li
 	padding: 0px 100px;
 	border:5px solid #FFFFFF;
 	transition:all ease-in-out 2000ms;
-	-webkit-transiton: all ease-in-out 2000ms;
+	/*-webkit-transiton: all ease-in-out 2000ms;*/
 }
 
 nav ul li a 
@@ -201,17 +202,21 @@ nav ul li a
 	font-family:fantasy;
 	/*font-weight:500;*/
 	color:#fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	cursor:pointer;
 	font-size:200%; 
 
+}
+nav ul li a:hover
+{	
 
+	color:#f00;
 }
 
-nav ul li a:hover,nav ul ul:hover
-{
-	
-	font-size:2em;
+nav ul li:hover
+{	
+
+	border:5px solid #FF0000;
 }
 #pointerL 
 {

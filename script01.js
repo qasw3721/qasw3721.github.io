@@ -47,6 +47,28 @@ function show()
 		counter=0;
 	}
 }
+function show2()
+{
+	var x = document.getElementsByClassName("php");
+
+	if (counter==0)
+	{
+		for (i = 0; i < x.length; i++) 
+		{
+    	 x[i].style.position="initial";
+		}
+
+		counter=1;
+	}
+	else
+	{
+		for (i = 0; i < x.length; i++) 
+		{
+			 x[i].style.position="absolute";
+		}
+		counter=0;
+	}
+}
 
 function moon()
 {
@@ -60,7 +82,12 @@ function link()
 {
 	window.location.href = "http://www.bilibili.com/video/av5544814/?from=search&seid=4551366918372122792";
 }
-			
+function tojoomla()
+{
+	window.location.href = "http://mycardandgame.byethost5.com/joomla30/	";
+}	
+
+		
 function zoom()
 {
 	if (gate==0)

@@ -34,6 +34,7 @@ ul li
 	cursor:pointer;
 	transition-property:all;
 	transition-duration: 3000ms;
+	transition-timing-function: ease-in-out;
 
 }
 

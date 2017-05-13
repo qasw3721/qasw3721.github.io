@@ -53,6 +53,25 @@
 	background-size: 100%;
 
 }
+#four
+{
+	background: url("image/noodle.jpg") #CCC no-repeat left top;
+	background-size: 100%;
+
+}
+#five
+{
+	background: url("image/technology.jpg") #CCC no-repeat left top;
+	background-size: 100%;
+
+}
+#six
+{
+	background: url("image/houses.jpg") #CCC no-repeat left top;
+	background-size: 100%;
+
+}
+
 
 p
 {

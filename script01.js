@@ -82,6 +82,18 @@ function link()
 {
 	window.location.href = "http://www.bilibili.com/video/av5544814/?from=search&seid=4551366918372122792";
 }
+function noodle()
+{
+	window.location.href = "https://drive.google.com/open?id=0B31x7xvwN4N-endJYkV6OHlETFE";
+}
+function technology()
+{
+	window.location.href = "https://drive.google.com/open?id=0B31x7xvwN4N-NGo3Z2Y4Q1dFV0U";
+}
+function houses()
+{
+	window.location.href = "https://drive.google.com/open?id=0B31x7xvwN4N-eW8yZ2JNNkVuZkE";
+}
 function tojoomla()
 {
 	window.location.href = "http://mycardandgame.byethost5.com/joomla30/	";
